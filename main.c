@@ -1,3 +1,10 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
+
+
 #include <stdio.h>
 #include <string.h>
 #include <sys/socket.h>
@@ -12,10 +19,14 @@ char const* const help_str =
 "Options:" \
 "    -h | --help   \tDisplay this documentation message and exit\n" \
 "    -s | --socket \tThe path of the socket to connect to\n" \
-"    -v | --version\tDisplay the version information and exit";
+"    -v | --version\tDisplay the version and license information and exit";
 
 char const* const version_str = 
 "uds-healthcheck v1.0.0\n" \
+"\n" \
+"License MPL 2.0: free to use and redistribute, modifications must be shared.\n" \
+"There is NO WARRANTY, to the extent permitted by law.\n" \
+"\n" \
 "Written by Léopold Gravier";
 
 char const* const usage_str =

@@ -12,3 +12,6 @@ is responding.
 Run with `uds-healthcheck -s [SOCK_PATH]`. 
 Connects to the given socket and immeditely close connection. 
 If successful, exits with 0, otherwise exits with 1.
+
+## License
+This software is under the MPL 2.0 license.
