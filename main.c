@@ -27,7 +27,8 @@ char const* const version_str =
 "License MPL 2.0: free to use and redistribute, modifications must be shared.\n" \
 "There is NO WARRANTY, to the extent permitted by law.\n" \
 "\n" \
-"Written by Léopold Gravier";
+"Written by Léopold Gravier\n" \
+"The source code is available at https://github.com/leopold-gravier/uds-healthcheck.";
 
 char const* const usage_str =
 "Usage: uds-healthcheck -s [SOCK_PATH]\n";

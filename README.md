@@ -15,3 +15,4 @@ If successful, exits with 0, otherwise exits with 1.
 
 ## License
 This software is under the MPL 2.0 license.
+The source code is available at https://github.com/leopold-gravier/uds-healthcheck
